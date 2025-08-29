@@ -1,1 +1,1 @@
-# Data-Preprocessing-Techniques
+# Data Preprocessing Techniques
