@@ -6,7 +6,7 @@ data = pd.read_csv("../department_dataset.csv")
 
 print("Original Data:\n", data.head())
 
-# Label Encoding (for one categorical column)
+# Label Encoding (for one column)
 le = LabelEncoder()
 data['Department_LabelEncoded'] = le.fit_transform(data['Department'])
 print("\nAfter Label Encoding:\n", data.head())
